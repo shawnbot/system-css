@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const {resolve} = require('path')
 const {promisify} = require('util')
-const readFile = promisify(require('fs').readFile)
 const yargs = require('yargs')
 
 const {_: args, ...options} = yargs.argv
